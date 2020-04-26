@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glofora Notes</string>
+    <string name="no_to_dos">You don\'t have any todos</string>
+    <string name="title">Title</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="remind_date_and_time">Reminder set for %1$s, %2$s %3$s</string>
+    <string name="about">About</string>
+    <string name="backup">Backup Notes</string>
+    <string name="restore">Restore Notes</string>
+    <string name="app_version">Version: %1$s</string>
+    <string name="contact_me">You can contact me at</string>
+    <string name="made_by"></string>
+    <string name="done_label">Done</string>
+    <string name="date_reminder_default">Today</string>
+    <string name="date_error_check_again">The date you entered is in the past.</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="night_mode_on_summary">Night mode is on</string>
+    <string name="night_mode_off_summary">Night mode is off</string>
+    <string name="Note">Note</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="snooze_options">
+        <item>10 Minutes</item>
+        <item>30 Minutes</item>
+        <item>1 Hour</item>
+    </string-array>
+
+    <string name="snooze">Snooze</string>
+    <string name="remove">Remove</string>
+    <string name="Take_Photo">Take Photo</string>
+    <string name="Choose_img">Choose Image</string>
+</resources>

@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginBottom="1dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+        <!--android:layout_margin="@dimen/card_margin"-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerCrop"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/listItemLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumbnail"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/toDoListItemColorImageView_1"
+                    android:layout_width="38sp"
+                    android:layout_height="45sp"
+                    android:layout_marginLeft="16dp"
+                    android:adjustViewBounds="true"
+                    android:gravity="center"
+                    android:scaleType="centerCrop" />
+
+
+                <!--                I hope this will help you.-->
+
+                <!--                1) CircleImageView-->
+
+                <!--                enter image description here-->
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/toDoListItemColorImageView"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="16dp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="?android:attr/listPreferredItemHeight"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="5"
+
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:id="@+id/toDoListItemTextview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="start|center"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:paddingRight="8dp"
+                        android:text="Clean your room"
+                        android:textColor="@color/secondary_text"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        tools:ignore="MissingPrefix" />
+
+                    <TextView
+                        android:id="@+id/todoListItemTextViewDec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/toDoListItemTextview"
+                        android:ellipsize="end"
+
+                        android:maxLines="1"
+                        android:paddingRight="8dp"
+                        android:text="27 Sept 2015, 22:30"
+                        android:textSize="12sp" />
+
+                    <TextView
+
+                        android:id="@+id/todoListItemTimeTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_below="@id/todoListItemTextViewDec"
+
+                        android:gravity="start|center"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text="27 Sept 2015, 22:30"
+                        android:textColor="?attr/colorAccent"
+
+
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

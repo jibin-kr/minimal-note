@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "788817602167",
+    "firebase_url": "https://mykeep-bf2c2.firebaseio.com",
+    "project_id": "mykeep-bf2c2",
+    "storage_bucket": "mykeep-bf2c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788817602167:android:de6b296f051bc698",
+        "android_client_info": {
+          "package_name": "com.calyx.mykeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788817602167-f0k8q5jgq9iukvrknb72t0dccksoqpmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcHOGKh9dWwUbSRkAphSG0G-5dhtln7kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788817602167-f0k8q5jgq9iukvrknb72t0dccksoqpmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

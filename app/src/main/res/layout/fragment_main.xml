@@ -1,0 +1,78 @@
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--              xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--              android:layout_width="match_parent"-->
+<!--              android:orientation="vertical"-->
+<!--              android:gravity="center"-->
+<!--              android:layout_height="match_parent">-->
+
+    <!--<include layout="@layout/base_toolbar"/>-->
+<android.support.design.widget.CoordinatorLayout
+
+    android:id="@+id/myCoordinatorLayout"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/primary_lightest"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/toDoEmptyView"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="100dp"
+
+                android:layout_height="100dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtHMtitle"
+                android:text="@string/no_to_dos"
+                android:textColor="@color/icons"
+                android:textSize="16sp"
+                android:paddingTop="4dp"
+                android:paddingBottom="8dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <!--<include layout="@layout/base_toolbar"/>-->
+
+
+        <!--</android.support.design.widget.AppBarLayout>-->
+
+
+        <com.example.calyx.mykeep.Utility.RecyclerViewEmptySupport
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:id="@+id/toDoRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+      />
+
+        <!--app:layoutManager="android.support.v7.widget.GridLayoutManager"-->
+        <!--app:spanCount="2"-->
+        <android.support.design.widget.FloatingActionButton
+            android:src="@drawable/ic_add_white_24dp"
+            android:id="@+id/addToDoItemFAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="bottom|end"
+
+
+            />
+<!--        app:layout_anchor="@id/myCoordinatorLayout"-->
+<!--        app:layout_anchorGravity="bottom|right|end"-->
+
+
+    </android.support.design.widget.CoordinatorLayout>
+<!--</LinearLayout>-->
