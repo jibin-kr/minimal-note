@@ -17,24 +17,22 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
-import android.graphics.drawable.GradientDrawable;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
 import android.provider.Settings;
-import android.support.annotation.DimenRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.NavUtils;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.FileProvider;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.SwitchCompat;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.DimenRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.app.NavUtils;
+import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
+import androidx.appcompat.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.format.DateFormat;
@@ -434,15 +432,16 @@ public class AddToDoFragment extends AppDefaultFragment implements DatePickerDia
 
                 mUsertodoImage = getFileToByte(bitmap);
 
-//                thumbnail = (ImageView) getView().findViewById(R.id.thumbnail);
+
+
+                thumbnail.setImageBitmap(bitmap);
+//                thumbnail.setAdjustViewBounds(true);
+                LinearLayout.LayoutParams parms = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+                thumbnail.setLayoutParams(parms);
                 setMargins(thumbnail, getDimenInt(getContext(), R.dimen.note_img_margin_left),
                         getDimenInt(getContext(), R.dimen.note_img_margin_top),
                         getDimenInt(getContext(), R.dimen.note_img_margin_right),
                         getDimenInt(getContext(), R.dimen.note_img_margin_bottom));
-                thumbnail.setImageBitmap(bitmap);
-                LinearLayout.LayoutParams parms = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-                thumbnail.setLayoutParams(parms);
-                thumbnail.setAdjustViewBounds(true);
                 PhotoViewAttacher pAttacher;
                 pAttacher = new PhotoViewAttacher(thumbnail);
                 pAttacher.update();

@@ -22,7 +22,7 @@
         android:theme="@style/CustomStyle.LightTheme"
         >
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="ibas.provider"
             android:exported="false"
             android:grantUriPermissions="true">

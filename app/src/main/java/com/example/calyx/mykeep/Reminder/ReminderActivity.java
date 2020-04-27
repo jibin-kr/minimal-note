@@ -1,7 +1,7 @@
 package com.example.calyx.mykeep.Reminder;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.example.calyx.mykeep.AppDefault.AppDefaultActivity;
 import com.example.calyx.mykeep.R;

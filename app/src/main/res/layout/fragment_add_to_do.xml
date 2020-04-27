@@ -4,7 +4,7 @@
     android:animateLayoutChanges="true"
     android:orientation="vertical">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
 
         android:layout_height="wrap_content"
@@ -12,7 +12,7 @@
 
         <include layout="@layout/base_toolbar" />
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <ScrollView
@@ -149,7 +149,7 @@
                         android:textColor="@color/secondary_text"
                         android:textSize="16sp" />
 
-                    <android.support.v7.widget.SwitchCompat
+                    <androidx.appcompat.widget.SwitchCompat
                         android:id="@+id/toDoHasDateSwitchCompat"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
