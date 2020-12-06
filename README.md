@@ -1,6 +1,6 @@
 # Glofora Notes | Minimal To Do | Note | OCR
 
-<img src=https://github.com/glofora/Glofora_Notes/blob/master/screenshots/icon.png" height="200" width="200">
+<img src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/icon.png" height="200" width="200">
 ### Get the app from <a href="https://play.google.com/store/apps/details?id=com.glofora.notes">here</a>
 
 ## Available Features
