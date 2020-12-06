@@ -12,7 +12,7 @@ Huge thanks to **[avjinder](https://github.com/avjinder)** ([minimal todo app](h
 
 ## Available Features
 
-* Add todos & notes easily and quickly
+* Create todo's & note's easily and quickly
 * Android X Support
 * Create Todo & Notes with an image
 * Grab text from attached image (OCR)
