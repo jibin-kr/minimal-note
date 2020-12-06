@@ -92,3 +92,9 @@ We adds some extra features to minimal todo app:
     </tr>
   </tbody>
 </table>
+
+## Developer
+
+This whole project is maintained only by **Glofora Solutions**.<br>
+If you like to contribute, please let me know
+<B>Email : jibin@glofora.com</B>
