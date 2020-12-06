@@ -95,6 +95,6 @@ We adds some extra features to minimal todo app:
 
 ## Developer
 
-This whole project is maintained only by **Glofora Solutions**.<br>
+This whole project is maintained only by **[Glofora Solutions](https://glofora.com)**.<br>
 If you like to contribute, please let me know
 <B>Email : jibin@glofora.com</B>
