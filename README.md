@@ -94,6 +94,9 @@ Huge thanks to **[avjinder](https://github.com/avjinder)** ([minimal todo app](h
   </tbody>
 </table>
 
+## App Icon
+Created by using [Flaticon](https://www.flaticon.com/search?word=notebook) & [Launcher icon Generator](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html)
+
 ## Developer
 
 This whole project is maintained only by **[Glofora Solutions](https://glofora.com)**.<br>
