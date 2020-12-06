@@ -12,14 +12,15 @@ Huge thanks to **[avjinder](https://github.com/avjinder)** ([minimal todo app](h
 
 ## Available Features
 
-• Add todos & notes easily and quickly.
-• Android X Support.
-• Create Todo & Notes with image.
-• Grab Text From Image (OCR).
-• Offline Backup & Restore.
-• Add extra space for detail Todo & Note.
-• Increased limit of note.Title length.
-• List notes with Title, Notes summary & Reminder date and time.
+* Add todos & notes easily and quickly
+* Android X Support
+* Create Todo & Notes with an image
+* Grab text from attached image (OCR)
+* Share note with other applications
+* Offline Backup & Restore
+* Night Mode
+* List notes with Title, Summary & Reminder details (Date & Time)
+* Reminder Notification
 
 ## Screenshots
 
