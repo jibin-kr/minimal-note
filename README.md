@@ -5,9 +5,9 @@
 
 ## Available Features
 
-Glofora Notes is a very light and useful Todo & Notes app that uses minimal todo app source code (The source code is freely available on Github https://github.com/avjinder/Minimal-Todo)
+Glofora Notes is a very light and useful Todo & Notes app that uses minimal todo app source code (The source code is freely available on [Github](https://github.com/avjinder/Minimal-Todo) 
 
-Huge thanks to avjinder (minimal todo app) for the awesome source code.
+Huge thanks to **[avjinder](https://github.com/avjinder)** ([minimal todo app](https://github.com/avjinder/Minimal-Todo) for the awesome source code.
 
 We adds some extra features to minimal todo app:
 
