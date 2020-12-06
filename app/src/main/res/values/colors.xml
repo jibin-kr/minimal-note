@@ -3,14 +3,14 @@
 
 
 <!--    <color name="amber">#ff4081</color>-->
-    <color name="amber">#8BC34A</color>
-    <color name="primary">#8BC34A</color>
-    <color name="primary_dark">#689F38</color>
-    <color name="primary_light">#DCEDC8</color>
-    <color name="accent">#8BC34A</color>
+    <color name="amber">#2196F3</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#CAE3F6</color>
+    <color name="accent">#2196F3</color>
     <color name="secondary_text">#757575</color>
     <color name="icons">#212121</color>
-    <color name="colorAccent">#8BC34A</color>
+    <color name="colorAccent">#2196F3</color>
     <color name="grey600">#757575</color>
     <color name="grey300">#E0E0E0</color>
 

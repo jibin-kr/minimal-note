@@ -16,8 +16,8 @@ android {
         applicationId "com.glofora.notes"
         minSdkVersion 23
         targetSdkVersion 29
-        versionCode 10
-        versionName "1.6.15"
+        versionCode 12
+        versionName "1.6.5"
     }
     buildTypes {
         release {
