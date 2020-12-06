@@ -1,7 +1,7 @@
 # Glofora Notes | Minimal To Do | Note | OCR
 
 <img src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/icon.png" height="200" width="200">
-Glofora Notes is a very light and useful Todo/Note application with OCR that uses [minimal todo app](https://github.com/avjinder/Minimal-Todo) source code.
+Glofora Notes is a very light and useful Todo/Note application with OCR that uses minimal todo app source code.
 
 Huge thanks to **[avjinder](https://github.com/avjinder)** ([minimal todo app](https://github.com/avjinder/Minimal-Todo)) for the awesome source code.
 
