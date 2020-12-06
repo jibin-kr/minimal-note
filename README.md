@@ -68,5 +68,27 @@ We adds some extra features to minimal todo app:
         />
       </td>
     </tr>
+    <tr>
+      <td>
+        <img
+          src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/Screenshot_17.png"
+        />
+      </td>
+      <td>
+        <img
+          src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/Screenshot_19.png"
+        />
+      </td>
+         <td>
+        <img
+          src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/Screenshot_20.png"
+        />
+      </td>
+         <td>
+        <img
+          src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/Screenshot_21.png"
+        />
+      </td>
+    </tr>
   </tbody>
 </table>
