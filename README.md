@@ -30,6 +30,11 @@ We adds some extra features to minimal todo app:
           src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/Screenshot_09.png"
         />
       </td>
+       <td>
+        <img
+          src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/Screenshot_18.png"
+        />
+      </td>
       <td>
         <img
           src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/Screenshot_10.png"
