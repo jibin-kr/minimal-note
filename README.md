@@ -1,4 +1,4 @@
-# Minimal To Do (Glofora Notes) With OCR
+# Minimal To Do ([Glofora Notes](https://play.google.com/store/apps/details?id=com.glofora.notes)) With OCR
 
 <img src="https://github.com/glofora/Glofora_Notes/blob/master/screenshots/icon.png" height="200" width="200">
 Glofora Notes is a very light and useful Todo/Note application with OCR that uses minimal todo app source code.
